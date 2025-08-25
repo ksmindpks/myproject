@@ -32,7 +32,7 @@ SECRET_KEY = config("SECRET_KEY", 'secretekey')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-# .env에 미ㅣㅒㅉㄸㅇ_ㅗㅒㄴㅆ=3.15.121.1, domain.com
+# .env에 ALLOWED_HOST=3.15.121.1, domain.com
 ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="").split(",")
 
 # Application definition
